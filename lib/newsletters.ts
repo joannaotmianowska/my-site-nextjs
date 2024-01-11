@@ -48,7 +48,6 @@ export function getNewslettersData(slug: string) {
 
 export function getAllNewslettersSlugs() {
   const fileNames = fs.readdirSync(newsletterDirectory);
-  console.log(fileNames)
   return fileNames.map((fileName) => {
     return {
       params: {
