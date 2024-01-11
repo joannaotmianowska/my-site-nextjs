@@ -6,7 +6,6 @@ export default function Newsletter(params: any) {
 }
 
 export async function generateStaticParams({ params }: { params: any }) {
-  console.log('params 123', params)
   const data = getNewslettersData(params.id);
   return {
     props: {
@@ -17,7 +16,6 @@ export async function generateStaticParams({ params }: { params: any }) {
 
 export async function getStaticPaths() {
   const paths = getAllNewslettersSlugs();
-  console.log('paths', paths);
   return {
     paths,
     fallback: false,
