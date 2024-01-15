@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import myPhoto from '../public/assets/my-photo.jpeg';
 
 export default function Home() {
   return (
@@ -31,11 +32,9 @@ export default function Home() {
         </div>
         <div className='z-10 w-full p-4'>
           <Image
-            src='https://github.com/joannaotmianowska/portfolio-nextjs/assets/20688756/30e82590-e70c-4388-a417-b8e1cff8ad3f'
+            src={myPhoto}
             alt='Joanna Otmianowska'
             priority={true}
-            width={300}
-            height={200}
             className='rounded'
           />
         </div>
@@ -79,3 +78,6 @@ export default function Home() {
     </>
   );
 }
+
+// TODO add SEO
+// TODO parallax effect
