@@ -21,7 +21,8 @@ export async function getNewslettersData(id: string) {
   return {
     id,
     contentHtml,
-    ...matterResult.data,
+    title: matterResult.data.title,
+    date: matterResult.data.date,
   };
 }
 
