@@ -3,7 +3,6 @@ title: 'Coding Challenges'
 date: '2022-01-02'
 ---
 
-
 # CodeChallenges Weekly
 
 ## Understanding the Challenges in Coding

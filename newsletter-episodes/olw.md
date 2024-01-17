@@ -3,7 +3,6 @@ title: 'One Little Word'
 date: '2022-01-05'
 ---
 
-
 # CodeChallenges Weekly
 
 ## Understanding the Challenges in Coding
