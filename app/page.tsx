@@ -7,7 +7,7 @@ export default function Home() {
       <div className='z-10 flex w-full max-w-5xl'>
         <div>
           <h1 className='p-4 text-2xl font-bold'>Joanna Otmianowska</h1>
-          <h3 className='p-4 font-mono'>
+          <h3 className='p-4 '>
             * kod * codzienność * praca w IT * dobrostan * macierzyństwo *
           </h3>
           <p className='p-4 text-xl font-bold'>
@@ -18,7 +18,7 @@ export default function Home() {
             się! 🧡
           </p>
           <ul className='p-4 text-xl leading-10'>
-            <h3 className='py-4 font-mono font-bold'>
+            <h3 className='py-4  font-bold'>
               Parę słów o mnie...
             </h3>
             <li>💭 Szukam pretekstów do rozmyślań i rozmów </li>
@@ -42,7 +42,7 @@ export default function Home() {
       <div className='z-10 flex w-full max-w-5xl'>
         <ul className='p-4 text-xl leading-10'>
           {/* TODO: add links, polish copy */}
-          <h3 className='py-4 font-mono font-bold'>Moje inicjatywy</h3>
+          <h3 className='py-4  font-bold'>Moje inicjatywy</h3>
           <li>
             ⭐ Newsletter "Pretekst do rozmyślań" - co dwa tygodnie w Twojej
             skrzynce mailowej

@@ -6,7 +6,7 @@ export default function Newsletter() {
 
   return (
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <div className='z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex'>
+      <div className='z-10 w-full max-w-5xl items-center justify-between  text-sm lg:flex'>
         <div>
           <h1 className='text-4xl font-bold'>Archiwalne newslettery</h1>
           <ul className='list-disc list-inside'>
@@ -15,7 +15,7 @@ export default function Newsletter() {
               <li key={newsletter.params.id}>
                 <Link 
                   href={`/newsletter/${newsletter.params.id}`}
-                  className='font-mono hover:font-bold hover:underline'
+                  className='hover:font-bold underline'
                 >
                   {newsletter.params.id}
                 </Link>
