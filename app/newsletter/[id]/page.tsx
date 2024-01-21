@@ -1,4 +1,4 @@
-import { getAllNewslettersSlugs, getNewslettersData } from '@/lib/newsletters';
+import { getAllNewslettersIds, getNewslettersData } from '@/lib/newsletters';
 
 export default async function Newsletter({ params }: any) {
   const data = await getNewslettersData(params.id);
@@ -43,7 +43,7 @@ export default async function Newsletter({ params }: any) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllNewslettersSlugs();
+  const paths = getAllNewslettersIds();
   return {
     paths,
     fallback: false,

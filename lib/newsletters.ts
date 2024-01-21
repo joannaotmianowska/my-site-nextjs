@@ -26,10 +26,11 @@ export async function getNewslettersData(id: string) {
     contentHtml,
     title: matterResult.data.title,
     date: matterResult.data.date,
+    keywords: matterResult.data.keywords,
   };
 }
 
-export function getAllNewslettersSlugs() {
+export function getAllNewslettersIds() {
   const fileNames = fs.readdirSync(newsletterDirectory);
   return fileNames.map((fileName) => {
     return {
