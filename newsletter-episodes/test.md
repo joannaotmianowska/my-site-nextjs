@@ -1,7 +1,19 @@
 ---
-title: "Odcinek 13 - Jedyny Słuszny Sposób"
-date: "2024-01-18"
-keywords: ["programowanie", "Jedyny Słuszny Sposób", "React", "Angular", "testy", "refactoring", "code coverage", "programowanie funkcyjne", "legacy code", "Backbone"]
+title: 'Odcinek 13 - Jedyny Słuszny Sposób'
+date: '2024-01-18'
+keywords:
+  [
+    'programowanie',
+    'Jedyny Słuszny Sposób',
+    'React',
+    'Angular',
+    'testy',
+    'refactoring',
+    'code coverage',
+    'programowanie funkcyjne',
+    'legacy code',
+    'Backbone',
+  ]
 ---
 
 <p>Przeczytałam ostatnio <span class="ml-rte-link-wrapper"><a href="https://buttondown.email/hillelwayne/archive/advice-for-new-software-devs-whove-read-all-those/" target="_blank">odcinek newslettera *Computer Things* Hillela Wayne'a</a></span>&nbsp;z radami dla początkujących programistów i jedna z uwag zatrzymała mnie na dłużej. A było to:

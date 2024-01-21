@@ -1,4 +1,4 @@
-import { getAllNewslettersSlugs } from "@/lib/newsletters";
+import { getAllNewslettersSlugs } from '@/lib/newsletters';
 import Link from 'next/link';
 
 export default function Newsletter() {
@@ -12,17 +12,18 @@ export default function Newsletter() {
           <ul className='list-disc list-inside'>
             {newsletters.map((newsletter: any) => {
               return (
-              <li key={newsletter.params.id}>
-                <Link 
-                  href={`/newsletter/${newsletter.params.id}`}
-                  className='hover:font-bold underline'
-                >
-                  {newsletter.params.id}
-                </Link>
-              </li>
-            )})}
+                <li key={newsletter.params.id}>
+                  <Link
+                    href={`/newsletter/${newsletter.params.id}`}
+                    className='hover:font-bold underline'
+                  >
+                    {newsletter.params.id}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
-      </div>
+        </div>
       </div>
     </main>
   );

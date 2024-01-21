@@ -6,16 +6,10 @@ export default function Nav() {
       <Link className=' hover:font-bold hover:underline' href='/'>
         ✨ Strona główna
       </Link>
-      <Link
-        className=' hover:font-bold hover:underline'
-        href='/podcast'
-      >
+      <Link className=' hover:font-bold hover:underline' href='/podcast'>
         🎙️ Podcast
       </Link>
-      <Link
-        className=' hover:font-bold hover:underline'
-        href='/newsletter'
-      >
+      <Link className=' hover:font-bold hover:underline' href='/newsletter'>
         💌 Newsletter
       </Link>
       <Link

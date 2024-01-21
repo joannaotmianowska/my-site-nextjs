@@ -18,9 +18,7 @@ export default function Home() {
             się! 🧡
           </p>
           <ul className='p-4 text-xl leading-10'>
-            <h3 className='py-4  font-bold'>
-              Parę słów o mnie...
-            </h3>
+            <h3 className='py-4  font-bold'>Parę słów o mnie...</h3>
             <li>💭 Szukam pretekstów do rozmyślań i rozmów </li>
             <li>🎙️ Tworzę podcast i newsletter 💌</li>
             <li>🌱 Propaguję rozwój w swoim tempie</li>

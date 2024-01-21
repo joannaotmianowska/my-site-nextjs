@@ -4,7 +4,10 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
-export const newsletterDirectory = path.join(process.cwd(), 'newsletter-episodes');
+export const newsletterDirectory = path.join(
+  process.cwd(),
+  'newsletter-episodes'
+);
 
 export async function getNewslettersData(id: string) {
   const fullPath = path.join(newsletterDirectory, `${id}.md`);

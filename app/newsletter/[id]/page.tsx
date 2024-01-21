@@ -1,4 +1,4 @@
-import { getAllNewslettersSlugs, getNewslettersData } from "@/lib/newsletters";
+import { getAllNewslettersSlugs, getNewslettersData } from '@/lib/newsletters';
 
 export default async function Newsletter({ params }: any) {
   const data = await getNewslettersData(params.id);
@@ -7,15 +7,23 @@ export default async function Newsletter({ params }: any) {
       <div className='flex flex-row z-10 w-full max-w-5xl items-center justify-between  text-sm lg:flex'>
         <div>
           <h1 className='text-4xl font-bold  text-center'>{data.title}</h1>
-          <h2 className='text-1xl  text-center'>Oryginalna data wysyłki: {data.date}</h2>
-          <div className='text-lg font-sans space-y-8' dangerouslySetInnerHTML={{ __html: data.contentHtml }} />
+          <h2 className='text-1xl  text-center'>
+            Oryginalna data wysyłki: {data.date}
+          </h2>
+          <div
+            className='text-lg font-sans space-y-8'
+            dangerouslySetInnerHTML={{ __html: data.contentHtml }}
+          />
         </div>
       </div>
-      <div className="ml-form-embed"
-          data-account="1266630:w2b1g4j9n7"
-          data-form="5962655:x7z2u3">
-        </div>
-      <div dangerouslySetInnerHTML={{ __html: `
+      <div
+        className='ml-form-embed'
+        data-account='1266630:w2b1g4j9n7'
+        data-form='5962655:x7z2u3'
+      ></div>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `
             <!-- MailerLite Universal -->
             <script>
             (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
@@ -27,8 +35,10 @@ export default async function Newsletter({ params }: any) {
             var ml_account = ml('accounts', '1266630', 'w2b1g4j9n7', 'load');
             </script>
             <!-- End MailerLite Universal -->
-          ` }} />
-  </main>
+          `,
+        }}
+      />
+    </main>
   );
 }
 

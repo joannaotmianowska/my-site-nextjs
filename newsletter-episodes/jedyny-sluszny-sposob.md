@@ -1,14 +1,26 @@
 ---
-title: "Odcinek 13 - Jedyny Słuszny Sposób"
-date: "2024-01-18"
-keywords: ["programowanie", "Jedyny Słuszny Sposób", "React", "Angular", "testy", "refactoring", "code coverage", "programowanie funkcyjne", "legacy code", "Backbone"]
+title: 'Odcinek 13 - Jedyny Słuszny Sposób'
+date: '2024-01-18'
+keywords:
+  [
+    'programowanie',
+    'Jedyny Słuszny Sposób',
+    'React',
+    'Angular',
+    'testy',
+    'refactoring',
+    'code coverage',
+    'programowanie funkcyjne',
+    'legacy code',
+    'Backbone',
+  ]
 ---
 
 # Odcinek 13 - Jedyny Słuszny Sposób
 
 Cześć!
 
-Przeczytałam ostatnio [odcinek newslettera *Computer Things* Hillela Wayne'a](https://buttondown.email/hillelwayne/archive/some-advice-for-new-programmers/) z radami dla początkujących programistów i jedna z uwag zatrzymała mnie na dłużej. A było to:
+Przeczytałam ostatnio [odcinek newslettera _Computer Things_ Hillela Wayne'a](https://buttondown.email/hillelwayne/archive/some-advice-for-new-programmers/) z radami dla początkujących programistów i jedna z uwag zatrzymała mnie na dłużej. A było to:
 
 > "W pewnym momencie odkryjesz Jedyny Słuszny Sposób programowania, taki, który sprawia, że w końcu to wszystko ma sens i będziesz przekonanx, że wszyscy by skorzystali, gdyby programowali w Jedyny Słuszny Sposób."
 
@@ -26,7 +38,7 @@ Pamiętam jak na jednej z rozmów kwalifikacyjnych zapytana o to, co zrobiłabym
 
 To, czego nauczyło mnie parę lat programowania to przede wszystkim to, że właściwie nie ma sposobów uniwersalnych. Pewnie, możemy stosować pewne zasady, techniki. Jednak kod to wiele zmiennych i jak wchodzimy w istniejący już projekt, nad wieloma tymi zmiennymi nie mamy możliwości panować. Frustrowanie się wtedy, że coś nie jest napisane "po naszemu" nie ma sensu.
 
-Pretekst do rozmyślań na dziś to właśnie Jedyny Słuszny Sposób. Masz swój? Traktujesz go jak biblię? A może są rzeczy, w które kiedyś wierzyłxś, a dziś już nie są aktualne? Bardzo jestem ciekawa, jak do tego podchodzisz! Odpisz na tego maila i pogadajmy ✨  
+Pretekst do rozmyślań na dziś to właśnie Jedyny Słuszny Sposób. Masz swój? Traktujesz go jak biblię? A może są rzeczy, w które kiedyś wierzyłxś, a dziś już nie są aktualne? Bardzo jestem ciekawa, jak do tego podchodzisz! Odpisz na tego maila i pogadajmy ✨
 
 ---
 
@@ -36,10 +48,10 @@ Dziś zaproszę Cię [do moich technicznych artykułów na dev.to](https://dev.t
 
 Nowych przeglądów treści ostatnio nie było, linkuję poniżej te, które się już pojawiły, może masz do nadrobienia:
 
-  * [TechWell #1](https://industrious-boursin-3b3.notion.site/TechWell-1-5a3e259a4e2643f08038c6561db9c6e3)
-  * [TechWell #2](https://industrious-boursin-3b3.notion.site/TechWell-2-9b62dfbf86d242c09b6b2e3ec28b9f5f)
-  * [TechWell #3](https://industrious-boursin-3b3.notion.site/TechWell-3-2f4284b7c4514ba0b9ed68e95a8a1cb3)
-  * [TechWell #4](https://industrious-boursin-3b3.notion.site/TechWell-4-8e05bd8f7d8e4c05a8d5804c6e5ad21d)
+- [TechWell #1](https://industrious-boursin-3b3.notion.site/TechWell-1-5a3e259a4e2643f08038c6561db9c6e3)
+- [TechWell #2](https://industrious-boursin-3b3.notion.site/TechWell-2-9b62dfbf86d242c09b6b2e3ec28b9f5f)
+- [TechWell #3](https://industrious-boursin-3b3.notion.site/TechWell-3-2f4284b7c4514ba0b9ed68e95a8a1cb3)
+- [TechWell #4](https://industrious-boursin-3b3.notion.site/TechWell-4-8e05bd8f7d8e4c05a8d5804c6e5ad21d)
 
 ---
 
@@ -49,16 +61,16 @@ Masz ochotę na więcej moich treści?
 
 ✨ Po migawki z mojej codzienności [wskakuj na Instagram](https://www.instagram.com/joanna.otmianowska/).
 
-✨ Programowanie, zmiana branży na IT, wsparcie i motywacja w dziewczyńskim gronie? To wszystko znajdziesz w mojej grupie ["Programuj, dziewczyno!" na FB](https://www.facebook.com/groups/programujdziewczyno) (jest nas już ponad 30 tysięcy!)  
+✨ Programowanie, zmiana branży na IT, wsparcie i motywacja w dziewczyńskim gronie? To wszystko znajdziesz w mojej grupie ["Programuj, dziewczyno!" na FB](https://www.facebook.com/groups/programujdziewczyno) (jest nas już ponad 30 tysięcy!)
 
 ---
 
 Lubisz czytać ten newsletter?
 
-Wesprzyj moje działania: prześlij komuś tego maila, [link do zapisu na newsletter](https://www.subscribepage.com/joannaotmianowska) albo [postaw mi kawę](https://buycoffee.to/joannaotmianowska). Będę ogromnie wdzięczna!  
+Wesprzyj moje działania: prześlij komuś tego maila, [link do zapisu na newsletter](https://www.subscribepage.com/joannaotmianowska) albo [postaw mi kawę](https://buycoffee.to/joannaotmianowska). Będę ogromnie wdzięczna!
 
 Serdeczne pozdrowienia
 
-Joanna ✨  
+Joanna ✨
 
-[Chcę posłuchać podcastu](https://open.spotify.com/show/4kYCRYJ3yK5DQbP5tbfZby)  
+[Chcę posłuchać podcastu](https://open.spotify.com/show/4kYCRYJ3yK5DQbP5tbfZby)
