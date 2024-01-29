@@ -8,7 +8,9 @@ export default async function Newsletter() {
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
       <div className='z-10 w-full max-w-5xl items-center justify-between  text-sm lg:flex'>
         <div>
-          <h1 className='text-4xl font-bold mb-8 text-center'>Archiwalne newslettery</h1>
+          <h1 className='text-4xl font-bold mb-8 text-center'>
+            Archiwalne newslettery
+          </h1>
           <ul>
             {newsletters.map(async (newsletter: any) => {
               const data = await getNewslettersData(newsletter.params.id);
@@ -20,7 +22,16 @@ export default async function Newsletter() {
                   >
                     <h3 className='text-xl font-bold p-1 m-1'>{data.title}</h3>
                   </Link>
-                  <p>{data.keywords.map((topic: string) => <span className='border border-violet-300 rounded-lg bg-violet-300 p-1 m-1 shadow-sm' key={topic}>{topic} </span>)}</p>
+                  <p>
+                    {data.keywords.map((topic: string) => (
+                      <span
+                        className='border border-violet-300 rounded-lg bg-violet-300 p-1 m-1 shadow-sm'
+                        key={topic}
+                      >
+                        {topic}{' '}
+                      </span>
+                    ))}
+                  </p>
                 </li>
               );
             })}
