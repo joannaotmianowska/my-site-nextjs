@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import myPhoto from '../public/assets/my-photo.jpeg';
+import Tile from '@/components/tile';
 
 export default function Home() {
   return (
@@ -38,6 +39,16 @@ export default function Home() {
           />
         </div>
       </div>
+      <div className="grid place-items-center w-full max-w-5xl my-8 mx-8">
+        <h3 className='py-4 font-bold'>Moje inicjatywy</h3>
+        <ul className="flex gap-4 w-full">
+          {[...Array(4).keys()].map((item) => (
+            <li key={item} className="group relative h-[500px] w-full overflow-hidden rounded-2xl flex-1 hover:grow-[1.25] cursor-pointer">
+              <Tile />
+            </li>
+          ))}
+        </ul>
+      </div>
       <div className='z-10 flex w-full max-w-5xl'>
         <ul className='p-4 text-xl leading-10'>
           <h3 className='py-4  font-bold'>Moje inicjatywy</h3>
@@ -71,11 +82,11 @@ export default function Home() {
         </ul>
       </div>
       <div className='z-10 flex w-full max-w-5xl'>
-        <h4>Kontakt: <Link href='mailto:joanna@wakeupandcode.pl'>joanna@wakeupandcode.pl</Link></h4>
+        <h4 className='w-full text-center'>Kontakt: <Link href='mailto:joanna@wakeupandcode.pl'>joanna@wakeupandcode.pl</Link></h4>
       </div>
     </>
   );
 }
 
 // TODO add SEO
-// TODO parallax effect
+// TODO remove links as list and add them as tiles
