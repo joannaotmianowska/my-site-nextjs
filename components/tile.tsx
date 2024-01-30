@@ -18,7 +18,7 @@ export default function Tile() {
             The card title is here.
           </h2>
           <div className='grid grid-rows-[0fr] transition-all  group-hover:grid-rows-[1fr]'>
-            <p className='mt-2 overflow-hidden text-white/70 opacity-0 transition duration-300 group-hover:opacity-100'>
+            <p className='mt-2 overflow-hidden text-white/70 opacity-0 transition duration-500 group-hover:opacity-100'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
               quia ipsa eius.
             </p>

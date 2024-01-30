@@ -2,24 +2,24 @@ import Link from 'next/link';
 
 export default function Nav() {
   return (
-    <nav className='text-ma mx-auto flex w-full max-w-5xl items-center justify-between px-4 py-8'>
-      <Link className=' hover:font-bold hover:underline' href='/'>
+    <nav className='text-ma mx-auto font-bold flex w-full items-center justify-between px-4 py-8'>
+      <Link className='hover:text-my-orange' href='/'>
         ✨ Strona główna
       </Link>
-      <Link className=' hover:font-bold hover:underline' href='/podcast'>
+      <Link className=' hover:text-my-orange' href='/podcast'>
         🎙️ Podcast
       </Link>
-      <Link className=' hover:font-bold hover:underline' href='/newsletter'>
+      <Link className=' hover:text-my-orange' href='/newsletter'>
         💌 Newsletter
       </Link>
       <Link
-        className=' hover:font-bold hover:underline'
+        className=' hover:text-my-orange'
         href='https://www.instagram.com/joanna.otmianowska/'
       >
         📸 Instagram
       </Link>
       <Link
-        className=' hover:font-bold hover:underline'
+        className=' hover:text-my-orange'
         href='https://www.wakeupandcode.pl'
       >
         📚 Blog

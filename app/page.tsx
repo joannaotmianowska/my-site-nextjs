@@ -1,26 +1,30 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import myPhoto from '../public/assets/my-photo.jpeg';
+import myPhoto from '../public/assets/my-photo-2.jpg';
 import Tile from '@/components/tile';
 
 export default function Home() {
   return (
     <>
-      <div className='z-10 flex w-full max-w-5xl'>
-        <div>
-          <h1 className='p-4 text-2xl font-bold'>Joanna Otmianowska</h1>
-          <h3 className='p-4 '>
+      <div className='z-10 flex w-full'>
+        <div className='grid place-content-center'>
+          <h1 className='py-4 text-4xl font-bold text-my-orange'>
+            Joanna Otmianowska
+          </h1>
+          <h3 className='py-2'>
             * kod * codzienność * praca w IT * dobrostan * macierzyństwo *
           </h3>
-          <p className='p-4 text-xl font-bold'>
+          <p className='py-4 text-xl font-bold'>
             Cześć! Witaj na mojej stronie - jestem Joanna. Programistka
             frontend, która pisze, robi kreatywne rzeczy i stara się łapać
             balans między życiem mamy i stoma nowymi pomysłami na minutę.
             Znajdziesz tu zbiór wszystkich moich projektów i inicjatyw. Rozgość
             się! 🧡
           </p>
-          <ul className='p-4 text-xl leading-10'>
-            <h3 className='py-4  font-bold'>Parę słów o mnie...</h3>
+          <ul className='py-4 text-xl leading-10'>
+            <h3 className='py-4 text-my-orange font-bold'>
+              Parę słów o mnie...
+            </h3>
             <li>💭 Szukam pretekstów do rozmyślań i rozmów </li>
             <li>🎙️ Tworzę podcast i newsletter 💌</li>
             <li>🌱 Propaguję rozwój w swoim tempie</li>
@@ -30,22 +34,24 @@ export default function Home() {
             <li>⚡ Zarażam energią do działania</li>
           </ul>
         </div>
-        <div className='z-10 w-full p-4'>
+        <div className='z-10 p-4'>
           <Image
             src={myPhoto}
             alt='Joanna Otmianowska'
             priority={true}
-            className='rounded'
+            className='rounded-2xl'
           />
         </div>
       </div>
-      <div className='grid place-items-center w-full max-w-5xl my-8 mx-8'>
-        <h3 className='py-4 font-bold'>Moje inicjatywy</h3>
+      <div className='grid place-items-center w-full my-8 mx-8'>
+        <h3 className='py-8 text-4xl font-bold text-my-orange'>
+          Moje inicjatywy
+        </h3>
         <ul className='flex gap-4 w-full'>
           {[...Array(4).keys()].map((item) => (
             <li
               key={item}
-              className='group relative h-[500px] w-full overflow-hidden rounded-2xl flex-1 hover:grow-[1.25] cursor-pointer'
+              className='group relative h-[500px] w-full overflow-hidden rounded-2xl flex-1 hover:grow-[1.4] cursor-pointer'
             >
               <Tile />
             </li>
