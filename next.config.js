@@ -6,7 +6,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'github.com',
         port: '',
-        pathname: '/joannaotmianowska/portfolio-nextjs/assets/**',
+        pathname: '/public/assets/**',
       },
     ],
   },
