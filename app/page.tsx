@@ -49,7 +49,7 @@ export default function Home() {
         <h3 className='py-8 text-4xl font-bold text-my-orange'>
           Moje inicjatywy
         </h3>
-        <ul className='flex gap-4 w-full'>
+        <ul className='flex flex-row gap-4 w-full'>
           {tiles.map((tile: TileMainPage) => (
             <li
               key={tile.id}

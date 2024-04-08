@@ -17,7 +17,7 @@ export const tiles: TileMainPage[] = [
   {
     title: 'Podcast "Pod Pretekstem"',
     description:
-      'Posłuchaj i porozmkninaj razem ze mną życiowo-zawodowe tematy',
+      'Posłuchaj i porozmkminiaj razem ze mną życiowo-zawodowe tematy',
     link: 'https://open.spotify.com/show/2clasOw1kmW2Ru0VHwtSyA?si=f4ff0c2d08274e32',
     image: 'mice.webp',
     id: 2,

@@ -18,7 +18,7 @@ export default async function Tile({ tile }: { tile: TileMainPage }) {
         <div className='w-65'>
           <h2 className='text-2xl font-bold text-white'>{tile.title}</h2>
           <div className='grid grid-rows-[0fr] transition-all  group-hover:grid-rows-[1fr]'>
-            <p className='mt-2 overflow-hidden text-white/90 opacity-0 transition duration-500 group-hover:opacity-100'>
+            <p className='mt-2 overflow-hidden text-white/90 opacity-0 transition duration-1000 group-hover:opacity-100'>
               {tile.description}
             </p>
           </div>
