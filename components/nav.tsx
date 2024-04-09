@@ -15,7 +15,7 @@ export default function Nav() {
         href='/'
         className='mx-2 my-2 flex max-h-10 flex-none cursor-pointer items-center justify-center py-4 hover:text-my-orange'
       >
-        <span>✨ Strona główna</span>
+        <span>✨ strona główna</span>
       </Link>
       <div className='items-right flex justify-between bg-my-orange lg:bg-my-beige'>
         <span
@@ -36,13 +36,13 @@ export default function Nav() {
             className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
             href={tiles[0].link}
           >
-            💌 Newsletter
+            💌 newsletter
           </Link>
           <Link
             className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
             href={tiles[1].link}
           >
-            🎙️ Podcast
+            🎙️ podcast
           </Link>
 
           <Link
@@ -50,7 +50,7 @@ export default function Nav() {
             href='https://www.instagram.com/joanna.otmianowska/'
             target='_blank'
           >
-            📸 Instagram
+            📸 instagram
           </Link>
 
           <Link
@@ -58,7 +58,7 @@ export default function Nav() {
             href={tiles[2].link}
             target='_blank'
           >
-            📚 Blog
+            📚 blog wakeupandcode.pl
           </Link>
 
           <Link
@@ -66,7 +66,7 @@ export default function Nav() {
             href={tiles[3].link}
             target='_blank'
           >
-            👩🏻‍💻 Programuj, dziewczyno!
+            👩🏻‍💻 programuj, dziewczyno!
           </Link>
         </ul>
       </div>
