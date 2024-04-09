@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import testPhoto from '../public/assets/female-coder-emoji.png';
 import { TileMainPage } from '@/lib/tilesDetails';
 
 export default async function Tile({ tile }: { tile: TileMainPage }) {
