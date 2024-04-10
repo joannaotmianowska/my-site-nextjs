@@ -6,19 +6,22 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 export default function Nav() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
-  const openCloseNavbar = () => setNavbarOpen(navbarOpen ? false : true);
+  const openCloseNavbar = () => {
+    console.log('click');
+    setNavbarOpen(navbarOpen ? false : true);
+  };
 
   return (
-    <nav className='z-40 w-full sticky top-0 my-0 flex items-stretch justify-between bg-my-orange py-0 lg:bg-my-beige'>
+    <nav className='z-40 w-full max-w-screen sticky top-0 my-0 flex items-stretch justify-between text-center bg-my-orange py-0 lg:bg-my-beige'>
       <Link
         href='/'
         className='mx-2 my-2 flex max-h-10 flex-none cursor-pointer items-center justify-center py-4 hover:text-my-orange'
       >
-        <span>✨ strona główna</span>
+        <span className='lg:hover:animate-wiggle'>✨ strona główna</span>
       </Link>
-      <div className='items-right flex justify-between bg-my-orange lg:bg-my-beige'>
+      <div className='items-right flex justify-between bg-my-orange lg:bg-my-beige border-rose-600'>
         <span
-          className='mx-4 my-4 flex cursor-pointer justify-between text-3xl text-white lg:hidden'
+          className='z-40 mx-4 my-4 flex cursor-pointer justify-between text-3xl text-white lg:hidden'
           onClick={openCloseNavbar}
           data-cy='nav-icon'
         >
@@ -32,20 +35,22 @@ export default function Nav() {
           onMouseLeave={() => setNavbarOpen(false)}
         >
           <Link
-            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
+            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange lg:hover:animate-wiggle'
             href='https://www.subscribepage.com/pretekst'
+            target='_blank'
           >
             💌 newsletter
           </Link>
           <Link
-            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
+            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange lg:hover:animate-wiggle'
             href='https://open.spotify.com/show/2clasOw1kmW2Ru0VHwtSyA?si=f4ff0c2d08274e32'
+            target='_blank'
           >
             🎙️ podcast
           </Link>
 
           <Link
-            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
+            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange lg:hover:animate-wiggle'
             href='https://www.instagram.com/joanna.otmianowska/'
             target='_blank'
           >
@@ -53,7 +58,7 @@ export default function Nav() {
           </Link>
 
           <Link
-            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
+            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange lg:hover:animate-wiggle'
             href='https://www.wakeupandcode.pl'
             target='_blank'
           >
@@ -61,7 +66,7 @@ export default function Nav() {
           </Link>
 
           <Link
-            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
+            className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange hover:animate-wiggle'
             href='https://www.facebook.com/groups/programujdziewczyno'
             target='_blank'
           >

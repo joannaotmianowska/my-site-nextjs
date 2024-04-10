@@ -11,6 +11,7 @@ const config: Config = {
       body: ['Epilogue', 'sans-serif'],
       title: ['Satoshi', 'sans-serif'],
       hand: ['Pencerio', 'serif'],
+      test: ['var(--font-epi)'],
     },
     extend: {
       backgroundImage: {
@@ -25,6 +26,15 @@ const config: Config = {
         'my-pink': '#EF91B3',
         'my-beige': '#F6EFEE',
         'my-red': '#DF6950',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
       },
     },
   },
