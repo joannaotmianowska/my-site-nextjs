@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import { tiles } from '@/lib/tilesDetails';
 
 export default function Nav() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -10,7 +9,7 @@ export default function Nav() {
   const openCloseNavbar = () => setNavbarOpen(navbarOpen ? false : true);
 
   return (
-    <nav className='z-40 w-full sticky top-0 my-0 flex items-stretch justify-between bg-my-orange py-0 font-semibold lg:bg-my-beige'>
+    <nav className='z-40 w-full sticky top-0 my-0 flex items-stretch justify-between bg-my-orange py-0 lg:bg-my-beige'>
       <Link
         href='/'
         className='mx-2 my-2 flex max-h-10 flex-none cursor-pointer items-center justify-center py-4 hover:text-my-orange'
@@ -34,13 +33,13 @@ export default function Nav() {
         >
           <Link
             className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
-            href={tiles[0].link}
+            href='https://www.subscribepage.com/pretekst'
           >
             💌 newsletter
           </Link>
           <Link
             className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
-            href={tiles[1].link}
+            href='https://open.spotify.com/show/2clasOw1kmW2Ru0VHwtSyA?si=f4ff0c2d08274e32'
           >
             🎙️ podcast
           </Link>
@@ -55,7 +54,7 @@ export default function Nav() {
 
           <Link
             className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
-            href={tiles[2].link}
+            href='https://www.wakeupandcode.pl'
             target='_blank'
           >
             📚 blog wakeupandcode.pl
@@ -63,7 +62,7 @@ export default function Nav() {
 
           <Link
             className='cursor-pointer p-4 duration-500 lg:my-0 hover:text-my-orange'
-            href={tiles[3].link}
+            href='https://www.facebook.com/groups/programujdziewczyno'
             target='_blank'
           >
             👩🏻‍💻 programuj, dziewczyno!

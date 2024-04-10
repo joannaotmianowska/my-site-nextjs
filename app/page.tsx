@@ -9,13 +9,14 @@ export default function Home() {
     <>
       <div className='z-10 flex w-full'>
         <div className='grid place-content-center'>
-          <h1 className='py-4 text-4xl font-bold text-my-orange'>
+          <h1 className='py-4 text-8xl font-title text-my-orange'>
             Joanna Otmianowska
           </h1>
-          <h3 className='py-2'>
-            * kod * codzienność * praca w IT * dobrostan * macierzyństwo *
+          <h3 className='py-2 font-bold font-hand text-2xl'>
+            * kod * codzienność * praca programistki * dobrostan * macierzyństwo
+            *
           </h3>
-          <p className='py-4 text-xl font-bold'>
+          <p className='py-4 text-xl  '>
             Cześć! Witaj na mojej stronie - jestem Joanna. Programistka
             frontend, która pisze, robi kreatywne rzeczy i stara się łapać
             balans między życiem mamy i stoma nowymi pomysłami na minutę.
@@ -23,7 +24,7 @@ export default function Home() {
             się! 🧡
           </p>
           <ul className='py-4 text-xl leading-10'>
-            <h3 className='py-4 text-my-orange font-bold'>
+            <h3 className='py-4 text-my-orange font-title'>
               Parę słów o mnie...
             </h3>
             <li>💭 Szukam pretekstów do rozmyślań i rozmów </li>
@@ -46,7 +47,7 @@ export default function Home() {
         </div>
       </div>
       <div className='grid place-items-center w-full my-8 mx-8'>
-        <h3 className='py-8 text-4xl font-bold text-my-orange'>
+        <h3 className='py-8 text-4xl font-title text-my-orange'>
           Moje inicjatywy
         </h3>
         <ul className='flex flex-row gap-4 w-full'>
@@ -62,7 +63,7 @@ export default function Home() {
       </div>
       <div className='z-10 flex w-full max-w-5xl'>
         <ul className='p-4 text-xl leading-10'>
-          <h3 className='py-4  font-bold'>A oprócz tego...</h3>
+          <h3 className='py-4 font-title'>A oprócz tego...</h3>
           <li>
             ✨ Po migawki z życia, nowe technologie i garść myśli &nbsp;
             <Link

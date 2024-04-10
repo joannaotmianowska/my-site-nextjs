@@ -8,7 +8,7 @@ export default async function Newsletter() {
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
       <div className='z-10 w-full max-w-5xl items-center justify-between  text-sm lg:flex'>
         <div>
-          <h1 className='text-4xl font-bold mb-8 text-center'>
+          <h1 className='text-4xl   mb-8 text-center'>
             Archiwalne newslettery
           </h1>
           <ul>
@@ -18,9 +18,9 @@ export default async function Newsletter() {
                 <li key={newsletter.params.id} className='mb-5'>
                   <Link
                     href={`/newsletter/${newsletter.params.id}`}
-                    className='hover:font-bold underline'
+                    className='hover:  underline'
                   >
-                    <h3 className='text-xl font-bold p-1 m-1'>{data.title}</h3>
+                    <h3 className='text-xl   p-1 m-1'>{data.title}</h3>
                   </Link>
                   <p>
                     {data.keywords.map((topic: string) => (
