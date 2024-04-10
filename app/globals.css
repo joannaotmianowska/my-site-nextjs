@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Epilogue';
+  src: url('../public/fonts/Epilogue-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../public/fonts/Satoshi-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pencerio';
+  src: url('../public/fonts/Pencerio-Hairline.ttf') format('truetype');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

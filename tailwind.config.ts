@@ -8,8 +8,9 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      body: ['Epilogue', 'sans-serif'],
+      title: ['Satoshi', 'sans-serif'],
+      hand: ['Pencerio', 'serif'],
     },
     extend: {
       backgroundImage: {
