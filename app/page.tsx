@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <div className='z-10 flex w-full'>
         <div className='grid place-content-center'>
-          <h1 className='py-4 text-8xl text-my-orange'>Joanna Otmianowska</h1>
+          <h1 className='py-4 text-8xl font-title text-my-orange'>Joanna Otmianowska</h1>
           <h3 className='py-2 font-bold font-hand text-2xl'>
             * kod * codzienność * praca programistki * dobrostan * macierzyństwo
             *
@@ -22,9 +22,9 @@ export default function Home() {
             się! 🧡
           </p>
           <ul className='py-4 text-xl leading-10'>
-            <h3 className='py-4 text-my-orange'>Parę słów o mnie...</h3>
+            <h3 className='py-4 text-my-orange font-title'>Parę słów o mnie...</h3>
             <li>💭 Szukam pretekstów do rozmyślań i rozmów </li>
-            <li>🎙️ Tworzę podcast i newsletter 💌</li>
+            <li>🎙️ Tworzę podcast i newslette font-titler 💌</li>
             <li>🌱 Propaguję rozwój w swoim tempie</li>
             <li>📚 Wierzę w lifelong learning i pracę głęboką</li>
             <li>✨ Pokazuję nowe technologie</li>
@@ -43,11 +43,11 @@ export default function Home() {
         </div>
       </div>
       <div className='grid place-items-center w-full my-8 mx-8'>
-        <h3 className='py-8 text-4xl text-my-orange'>Moje inicjatywy</h3>
+        <h3 className='py-8 text-4xl text-my-orange font-title'>Moje inicjatywy</h3>
         <ul className='flex flex-row gap-4 w-full'>
           {tiles.map((tile: TileMainPage) => (
             <li
-              key={tile.id}
+              key={tile.id} font-title
               className='group relative h-[400px] w-full overflow-hidden rounded-2xl flex-1 hover:grow-[1.4] cursor-pointer'
             >
               <Tile tile={tile} />
@@ -63,7 +63,7 @@ export default function Home() {
             <Link
               href='https://www.instagram.com/joanna.otmianowska/'
               className='underline'
-            >
+            > font-title
               wskakuj na moje konto na IG 👩🏻‍💻
             </Link>{' '}
           </li>

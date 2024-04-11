@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang='en' className={epi.variable}>
       <body className='w-full h-full grid place-content-center'>
-        <main className='text-my-blue flex min-h-screen lg:max-w-6xl flex-col items-center justify-between'>
+        <main className='text-my-blue font-body flex min-h-screen lg:max-w-6xl flex-col items-center justify-between'>
           <Nav />
           {children}
           <Footer />
