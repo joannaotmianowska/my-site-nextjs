@@ -21,9 +21,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en' className={epi.variable}>
-      <body className='w-full h-full grid place-content-center'>
-        <main className='text-my-blue font-body flex min-h-screen lg:max-w-6xl flex-col items-center justify-between'>
+    <html lang='en' className='w-fit h-fit'>
+      <body className='w-full flex justify-center items-center'>
+        <main className='w-full lg:w-10/12 text-my-blue font-body flex flex-col items-center justify-between'>
           <Nav />
           {children}
           <Footer />
