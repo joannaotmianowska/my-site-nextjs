@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang='en' className='w-fit h-fit'>
       <body className='w-full flex justify-center items-center'>
-        <main className='w-full lg:w-10/12 text-my-blue font-body flex flex-col items-center justify-between'>
+        <main className='w-full lg:w-1/2 text-my-blue font-body flex flex-col items-center justify-between'>
           <Nav />
           {children}
           <Footer />
