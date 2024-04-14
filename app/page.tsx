@@ -7,14 +7,13 @@ import { tiles, TileMainPage } from '../lib/tilesDetails';
 export default function Home() {
   return (
     <>
-      <div className='z-10 flex w-full'>
-        <div className='grid place-content-center'>
+      <div className='z-10 px-10 lg:px-0 flex flex-col lg:flex-row w-full'>
+        <div className='grid place-content-center grow'>
           <h1 className='py-4 text-8xl font-title text-my-orange'>
             Joanna Otmianowska
           </h1>
-          <h3 className='py-2 font-bold font-hand text-2xl'>
-            * kod * codzienność * praca programistki * dobrostan * macierzyństwo
-            *
+          <h3 className='py-2 font-bold font-hand text-xl lg:text-2xl'>
+            * kod * codzienność * rozwój * praca * dobrostan * macierzyństwo *
           </h3>
           <p className='py-4 text-xl'>
             Cześć! Witaj na mojej stronie - jestem Joanna. Programistka
@@ -28,7 +27,7 @@ export default function Home() {
               Parę słów o mnie...
             </h3>
             <li>💭 Szukam pretekstów do rozmyślań i rozmów </li>
-            <li>🎙️ Tworzę podcast i newslette font-titler 💌</li>
+            <li>🎙️ Tworzę podcast i newsletter 💌</li>
             <li>🌱 Propaguję rozwój w swoim tempie</li>
             <li>📚 Wierzę w lifelong learning i pracę głęboką</li>
             <li>✨ Pokazuję nowe technologie</li>
@@ -36,33 +35,32 @@ export default function Home() {
             <li>⚡ Zarażam energią do działania</li>
           </ul>
         </div>
-        <div className='z-10 p-4'>
+        <div className='z-10 p-4 grid place-content-center'>
           <Image
             src={myPhoto}
             alt='Joanna Otmianowska'
             priority={true}
-            className='rounded-2xl'
+            className='rounded-2xl object-contain'
             placeholder='blur'
           />
         </div>
       </div>
-      <div className='grid place-items-center w-full my-8 mx-8'>
-        <h3 className='py-8 text-4xl text-my-orange font-title'>
+      <div className='grid place-items-center w-full py-10 lg:px-0'>
+        <h3 className='pb-8 text-6xl lg:text-4xl text-my-orange font-title'>
           Moje inicjatywy
         </h3>
-        <ul className='flex flex-row gap-4 w-full'>
+        <ul className='flex flex-col lg:flex-row gap-4 w-full'>
           {tiles.map((tile: TileMainPage) => (
             <li
               key={tile.id}
-              font-title
-              className='group relative h-[400px] w-full overflow-hidden rounded-2xl flex-1 hover:grow-[1.4] cursor-pointer'
+              className='group relative h-[450px] lg:h-[400px] lg:w-full overflow-hidden rounded-2xl lg:flex-1 lg:hover:grow-[1.4] cursor-pointer'
             >
               <Tile tile={tile} />
             </li>
           ))}
         </ul>
       </div>
-      <div className='z-10 flex w-full max-w-5xl'>
+      <div className='z-10 flex w-full max-w-5xl px-10 py-5 lg:px-0 lg:py-10'>
         <ul className='p-4 text-xl leading-10'>
           <h3 className='py-4'>A oprócz tego...</h3>
           <li>
