@@ -21,9 +21,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en' className='w-fit h-fit'>
+    <html lang='en' className='w-fit h-fit overflow-x-hidden'>
       <body className='w-full flex justify-center items-center'>
-        <main className='w-full lg:w-1/2 text-my-blue font-body flex flex-col items-center justify-between'>
+        <main className='w-full lg:w-11/12 xl:w-1/2 text-my-blue font-body flex flex-col items-center justify-between'>
           <Nav />
           {children}
           <Footer />
