@@ -12,17 +12,17 @@ export default function Home() {
           <h1 className='py-4 text-8xl font-title text-my-orange'>
             Joanna Otmianowska
           </h1>
-          <h3 className='py-2 font-bold font-hand text-xl lg:text-2xl'>
+          <h3 className='py-2 font-bold font-hand'>
             * kod * codzienność * rozwój * praca * dobrostan * macierzyństwo *
           </h3>
-          <p className='py-4 text-xl'>
+          <p className='py-4'>
             Cześć! Witaj na mojej stronie - jestem Joanna. Programistka
             frontend, która pisze, robi kreatywne rzeczy i stara się łapać
             balans między życiem mamy i stoma nowymi pomysłami na minutę.
             Znajdziesz tu zbiór wszystkich moich projektów i inicjatyw. Rozgość
             się! 🧡
           </p>
-          <ul className='py-4 text-xl leading-10'>
+          <ul className='py-4 leading-10'>
             <h3 className='py-4 text-my-orange font-title'>
               Parę słów o mnie...
             </h3>
@@ -61,7 +61,7 @@ export default function Home() {
         </ul>
       </div>
       <div className='z-10 flex w-full max-w-5xl px-10 py-5 lg:px-0 lg:py-10'>
-        <ul className='p-4 text-xl leading-10'>
+        <ul className='p-4 text-6xl leading-10'>
           <h3 className='py-4'>A oprócz tego...</h3>
           <li>
             ✨ Po migawki z życia, nowe technologie i garść myśli &nbsp;
