@@ -45,15 +45,15 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className='grid place-items-center py-10 lg:px-0'>
+      <div className='grid place-items-center py-10 lg:px-0 w-full'>
         <h3 className='pb-8 text-6xl lg:text-4xl text-my-orange font-title'>
           Moje inicjatywy
         </h3>
-        <ul className='flex flex-col lg:flex-row gap-4'>
+        <ul className='flex flex-col lg:flex-row gap-4 w-full'>
           {tiles.map((tile: TileMainPage) => (
             <li
               key={tile.id}
-              className='group relative h-[450px] lg:h-[400px] lg overflow-hidden rounded-2xl lg:flex-1 lg:hover:grow-[1.4] cursor-pointer'
+              className='group relative h-[450px] lg:h-[400px] lg:w-full overflow-hidden rounded-2xl lg:flex-1 lg:hover:grow-[1.4] cursor-pointer'
             >
               <Tile tile={tile} />
             </li>
@@ -61,8 +61,8 @@ export default function Home() {
         </ul>
       </div>
       <div className='z-10 flex max-w-5xl px-10 py-5 lg:px-0 lg:py-10'>
-        <ul className='p-4 text-6xl leading-10'>
-          <h3 className='py-4'>A oprócz tego...</h3>
+        <ul className='p-4 leading-10'>
+          <h3 className='py-4 text-6xl'>A oprócz tego...</h3>
           <li>
             ✨ Po migawki z życia, nowe technologie i garść myśli &nbsp;
             <Link
