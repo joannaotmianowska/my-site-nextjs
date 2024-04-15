@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='w-fit h-fit overflow-x-hidden'>
-      <body className='w-full flex justify-center items-center text-3xl'>
+      <body className='w-full flex justify-center items-center text-3xl leading-relaxed'>
         <main className='w-full lg:w-11/12 text-my-blue font-body flex flex-col items-center justify-between'>
           <Nav />
           {children}

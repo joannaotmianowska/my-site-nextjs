@@ -23,7 +23,7 @@ export default function Home() {
             Znajdziesz tu zbiór wszystkich moich projektów i inicjatyw. Rozgość
             się! 🧡
           </p>
-          <ul className='py-4 leading-10'>
+          <ul className='py-4'>
             <h3 className='py-4 text-my-orange font-title'>
               Parę słów o mnie...
             </h3>
