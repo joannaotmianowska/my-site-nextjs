@@ -1,7 +1,9 @@
-import { getAllNewslettersIds, getNewslettersData } from '@/lib/newsletters';
+import { getNewslettersData } from '@/lib/newsletters';
 
+//TODO add types here for params
 export default async function Newsletter({ params }: any) {
   const data = await getNewslettersData(params.id);
+
   return (
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
       <div className='flex flex-row z-10 w-full max-w-5xl items-center justify-between text-sm lg:flex'>
@@ -40,12 +42,4 @@ export default async function Newsletter({ params }: any) {
       />
     </main>
   );
-}
-
-export async function getStaticPaths() {
-  const paths = getAllNewslettersIds();
-  return {
-    paths,
-    fallback: false,
-  };
 }
