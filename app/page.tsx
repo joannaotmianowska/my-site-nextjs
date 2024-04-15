@@ -7,13 +7,14 @@ import { tiles, TileMainPage } from '../lib/tilesDetails';
 export default function Home() {
   return (
     <>
-      <div className='z-10 px-10 lg:px-0 flex flex-col lg:flex-row'>
+      <div className='z-10 px-10 lg:px-0 flex flex-col lg:flex-row xl:w-3/4'>
         <div className='grid place-content-center grow'>
           <h1 className='py-4 text-8xl font-title text-my-orange'>
             Joanna Otmianowska
           </h1>
           <h3 className='py-2 font-bold font-hand'>
-            * kod * codzienność * rozwój * praca * dobrostan * macierzyństwo *
+            * kod * codzienność * rozwój * praca *<br></br>* dobrostan *
+            macierzyństwo * kreatywne życie *<br></br>
           </h3>
           <p className='py-4'>
             Cześć! Witaj na mojej stronie - jestem Joanna. Programistka
@@ -45,7 +46,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className='grid place-items-center py-10 lg:px-0 w-full'>
+      <div className='grid place-items-center py-10 lg:px-0 w-full xl:w-3/4'>
         <h3 className='pb-8 text-6xl lg:text-4xl text-my-orange font-title'>
           Moje inicjatywy
         </h3>
@@ -60,9 +61,9 @@ export default function Home() {
           ))}
         </ul>
       </div>
-      <div className='z-10 flex max-w-5xl px-10 py-5 lg:px-0 lg:py-10'>
-        <ul className='p-4 leading-10'>
-          <h3 className='py-4 text-6xl'>A oprócz tego...</h3>
+      <div className='z-10 flex flex-col max-w-5xl px-10 py-5 lg:px-0 lg:py-10'>
+        <h3 className='py-4 text-6xl lg:text-4xl'>A oprócz tego...</h3>
+        <ul className='p-4 leading-10 text-2xl'>
           <li>
             ✨ Po migawki z życia, nowe technologie i garść myśli &nbsp;
             <Link
@@ -81,7 +82,7 @@ export default function Home() {
           <li>
             ✨ Jak masz ochotę się do mnie odezwać,&nbsp;
             <Link href='mailto:joanna@wakeupandcode.pl' className='underline'>
-              najlepiej pisz na joanna@wakeupancode.pl 💌
+              pisz na joanna@wakeupancode.pl 💌
             </Link>{' '}
           </li>
           {/* <li>⭐ Ebook "Zostać programist(k)ą i nie zwariować"</li> */}
