@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import './global.css';
-import localFont from 'next/font/local';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
 
@@ -8,12 +7,6 @@ export const metadata: Metadata = {
   title: 'Joanna Otmianowska',
   description: 'Moje portfolio',
 };
-
-const epi = localFont({
-  src: '../public/fonts/Epilogue-Light.ttf',
-  display: 'swap',
-  variable: '--font-epi',
-});
 
 export default function RootLayout({
   children,
