@@ -14,7 +14,7 @@ export default function Nav() {
     <nav className='w-full z-40 sticky top-0 my-0 flex items-stretch justify-between bg-my-orange py-0 lg:bg-my-beige font-title text-2xl lg:text-base'>
       <Link
         href='/'
-        className='lg:mx-2 lg:my-2 flex max-h-10 flex-none cursor-pointer items-center justify-center px-8 py-12 hover:text-my-orange'
+        className='lg:mx-2 lg:my-2 flex max-h-10 flex-none cursor-pointer items-center justify-center px-8 py-12 lg:hover:text-my-orange'
       >
         <span className='lg:hover:animate-wiggle'>
           ✨&nbsp;&nbsp;&nbsp;strona główna
