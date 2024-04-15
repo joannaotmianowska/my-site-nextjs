@@ -7,7 +7,7 @@ import { tiles, TileMainPage } from '../lib/tilesDetails';
 export default function Home() {
   return (
     <>
-      <div className='z-10 px-10 lg:px-0 flex flex-col lg:flex-row w-full'>
+      <div className='z-10 px-10 lg:px-0 flex flex-col lg:flex-row'>
         <div className='grid place-content-center grow'>
           <h1 className='py-4 text-8xl font-title text-my-orange'>
             Joanna Otmianowska
@@ -45,22 +45,22 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className='grid place-items-center w-full py-10 lg:px-0'>
+      <div className='grid place-items-center py-10 lg:px-0'>
         <h3 className='pb-8 text-6xl lg:text-4xl text-my-orange font-title'>
           Moje inicjatywy
         </h3>
-        <ul className='flex flex-col lg:flex-row gap-4 w-full'>
+        <ul className='flex flex-col lg:flex-row gap-4'>
           {tiles.map((tile: TileMainPage) => (
             <li
               key={tile.id}
-              className='group relative h-[450px] lg:h-[400px] lg:w-full overflow-hidden rounded-2xl lg:flex-1 lg:hover:grow-[1.4] cursor-pointer'
+              className='group relative h-[450px] lg:h-[400px] lg overflow-hidden rounded-2xl lg:flex-1 lg:hover:grow-[1.4] cursor-pointer'
             >
               <Tile tile={tile} />
             </li>
           ))}
         </ul>
       </div>
-      <div className='z-10 flex w-full max-w-5xl px-10 py-5 lg:px-0 lg:py-10'>
+      <div className='z-10 flex max-w-5xl px-10 py-5 lg:px-0 lg:py-10'>
         <ul className='p-4 text-6xl leading-10'>
           <h3 className='py-4'>A oprócz tego...</h3>
           <li>
