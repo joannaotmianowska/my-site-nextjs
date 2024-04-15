@@ -4,10 +4,11 @@ import { TileMainPage } from '@/lib/tilesDetails';
 
 export default async function Tile({ tile }: { tile: TileMainPage }) {
   const img = await import(`../public/assets/${tile.image}`);
+
   return (
     <Link href={tile.link}>
       <Image
-        src={img}
+        src={JSON.parse(JSON.stringify(img))}
         alt={tile.title}
         priority={false}
         className='absolute inset-0 w-full h-full object-cover'
