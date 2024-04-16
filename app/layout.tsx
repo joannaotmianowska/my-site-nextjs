@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import type { Viewport } from 'next'
 import './global.css';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
@@ -6,8 +7,15 @@ import Footer from '../components/footer';
 export const metadata: Metadata = {
   title: 'Joanna Otmianowska',
   description: 'Moje portfolio',
-  viewport: 'width=device-width, initial-scale=0.5',
 };
+ 
+export const viewport: Viewport = {
+  themeColor: '#ECA7A4',
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+}
 
 export default function RootLayout({
   children,
