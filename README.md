@@ -1,3 +1,13 @@
+# 👩🏻‍💻 My Portfolio Site 
+
+This is my portfolio site built with Next.js, deployed with Vercel. It gathers my all initiatives & work philosophy. Project is WIP, for now available only in Polish but I am working on English version as well. 
+
+🚀 Demo can be checked [here](https://my-site-nextjs-seven.vercel.app/)
+
+💌 Any feedback highly appreciated, send it to me via email: [joanna@wakeupandcode.pl]('mailto:joanna@wakeupandcode.pl')
+
+***
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
