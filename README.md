@@ -4,7 +4,7 @@ This is my portfolio site built with Next.js, deployed with Vercel. It gathers m
 
 🚀 Demo can be checked [here](https://my-site-nextjs-seven.vercel.app/)
 
-💌 Any feedback highly appreciated, send it to me via email: [joanna@wakeupandcode.pl]('mailto:joanna@wakeupandcode.pl')
+💌 Any feedback highly appreciated, send it to me via email: [joanna@wakeupandcode.pl]('joanna@wakeupandcode.pl')
 
 ---
 
