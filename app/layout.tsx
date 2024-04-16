@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 export const metadata: Metadata = {
   title: 'Joanna Otmianowska',
   description: 'Moje portfolio',
-  viewport: 'width=device-width, initial-scale=1.0',
+  viewport: 'width=device-width, initial-scale=0.5',
 };
 
 export default function RootLayout({
