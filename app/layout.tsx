@@ -5,7 +5,7 @@ import Nav from '../components/nav';
 import Footer from '../components/footer';
 
 export const metadata: Metadata = {
-  title: 'Joanna Otmianowska',
+  title: '👩🏻‍💻 Joanna Otmianowska Portfolio',
   description: 'Moje portfolio',
 };
  
