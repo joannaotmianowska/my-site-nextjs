@@ -1,10 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import myPhoto from '../public/assets/my-photo-2.jpg';
+import { useTranslations } from "next-intl";
+import myPhoto from '../../public/assets/my-photo-2.jpg';
 import Tile from '@/components/tile';
-import { tiles, TileMainPage } from '../lib/tilesDetails';
+import { tiles, TileMainPage } from '../../lib/tilesDetails';
 
 export default function Home() {
+  const t = useTranslations("Home");
+
   return (
     <>
       <div className='z-10 px-10 lg:px-0 flex flex-col lg:flex-row xl:w-3/4'>
@@ -17,11 +20,12 @@ export default function Home() {
             macierzyństwo * kreatywne życie *<br></br>
           </h3>
           <p className='py-4'>
-            Cześć! Witaj na mojej stronie - jestem Joanna. Programistka
+            {/* Cześć! Witaj na mojej stronie - jestem Joanna. Programistka
             frontend, która pisze, robi kreatywne rzeczy i stara się łapać
             balans między życiem mamy i stoma nowymi pomysłami na minutę.
             Znajdziesz tu zbiór wszystkich moich projektów i inicjatyw. Rozgość
-            się! 🧡
+            się! 🧡 */}
+            {t("intro")}
           </p>
           <ul className='py-4'>
             <h3 className='py-4 text-my-orange font-title'>
