@@ -1,11 +1,11 @@
 {
     "Nav": {
-        "main_page": "✨&nbsp;&nbsp;&nbsp;strona główna",
-        "newsletter": "💌&nbsp;&nbsp;&nbsp;newsletter",
-        "podcast": "🎙️&nbsp;&nbsp;&nbsp;podcast",
-        "instagram": "📸&nbsp;&nbsp;&nbsp;instagram",
-        "blog": "🌱&nbsp;&nbsp;&nbsp;wakeupancode.pl",
-        "group": "👩🏻‍💻&nbsp;&nbsp;&nbsp;grupa \"Programuj, dziewczyno!\""
+        "main_page": "home",
+        "newsletter": "newsletter",
+        "podcast": "podcast",
+        "instagram": "instagram",
+        "blog": "wakeupancode.pl",
+        "group": "\"Programuj, dziewczyno!\" group"
     },
     "Home": {
         "intro": "Hey! Welcome to my site - I'm Joanna. A frontend developer who writes, does creative stuff, and tries to find the balance between mom life and a hundred new ideas per minute. Here you'll find a collection of all my projects and initiatives. Make yourself at home! 🧡",
@@ -62,9 +62,10 @@
                 "part_1": "If you feel like reaching out to me ",
                 "link": "write to joanna@wakeupancode.pl 💌"
             }
-        },
-        "footer": "© Wake up and Code Joanna Otmianowska 2024. All rights reserved."
-        
+        }     
+    },
+    "Footer": {
+        "main": "© Wake up and Code Joanna Otmianowska 2024. All rights reserved."
     }
 }
 
