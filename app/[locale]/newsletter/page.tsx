@@ -20,7 +20,7 @@ export default async function Newsletter() {
                     href={`/newsletter/${newsletter.params.id}`}
                     className='hover:  underline'
                   >
-                    <h3 className='text-xl   p-1 m-1'>{data.title}</h3>
+                    <h3 className='text-xl p-1 m-1'>{data.title}</h3>
                   </Link>
                   <p>
                     {data.keywords.map((topic: string) => (

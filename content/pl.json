@@ -1,5 +1,68 @@
 {
+    "Nav": {
+        "main_page": "✨&nbsp;&nbsp;&nbsp;home",
+        "newsletter": "💌&nbsp;&nbsp;&nbsp;newsletter",
+        "podcast": "🎙️&nbsp;&nbsp;&nbsp;podcast",
+        "instagram": "📸&nbsp;&nbsp;&nbsp;instagram",
+        "blog": "🌱&nbsp;&nbsp;&nbsp;wakeupancode.pl",
+        "group": "👩🏻‍💻&nbsp;&nbsp;&nbsp;fb group \"Programuj, dziewczyno!\""
+    },
     "Home": {
-        "intro": "Cześć! Witaj na mojej stronie - jestem Joanna. Programistka frontend, która pisze, robi kreatywne rzeczy i stara się łapać balans między życiem mamy i stoma nowymi pomysłami na minutę. Znajdziesz tu zbiór wszystkich moich projektów i inicjatyw. Rozgość się! 🧡"
+        "intro": "Cześć! Witaj na mojej stronie - jestem Joanna. Programistka frontend, która pisze, robi kreatywne rzeczy i stara się łapać balans między życiem mamy i stoma nowymi pomysłami na minutę. Znajdziesz tu zbiór wszystkich moich projektów i inicjatyw. Rozgość się! 🧡",
+        "aboutMe": {
+            "title": "Parę słów o mnie...",
+            "part_1": "💭 Szukam pretekstów do rozmyślań i rozmów",
+            "part_2": "🎙️ Tworzę podcast i 💌 newsletter",
+            "part_3": "🌱 Propaguję rozwój w swoim tempie",
+            "part_4": "📚 Wierzę w lifelong learning i pracę głęboką",
+            "part_5": "✨ Pokazuję nowe technologie",
+            "part_6": "👩🏻‍💻 Wspieram kobiety w IT",
+            "part_7": "🚀 Zarażam energią do działania"
+        },
+        "keywords": {
+            "part_1": "kod",
+            "part_2": "codzienność",
+            "part_3": "rozwój",
+            "part_4": "praca",
+            "part_5": "dobrostan",
+            "part_6": "macierzyństwo",
+            "part_7": "kreatywne życie"
+        },
+        "tiles": {
+            "title": "Moje inicjatywy",
+            "newsletter": {
+                "title": "Newsletter \"Pretekst do rozmyślań\"",
+                "description": "Piszę o rozwoju osobistym, kreatywności i technologii. Dzielę się przemyśleniami, doświadczeniami i inspiracjami. Polecam książki, podcasty i narzędzia, które pomagają mi się rozwijać. Nowe wydanie co dwa tygodnie w Twojej skrzynce mailowej. Dołącz ju dziś! 💌"
+            },
+            "podcast": {
+                "title": "Podcast \"Pod Pretekstem\"",
+                "description": "Poszukaj ze mną prekstów do rozmyślań i rozmów. Tematy, wokół których będziemy się kręcić to m.in. kod, dobrostan, balans, macierzyństwo, notatki, rozwój, planowanie, odpoczynek. Ale tak naprawdę pretekstem do rozmyślań moe być wszystko. Słuchaj na swojej ulubionej platformie podcastowej lub na YT 🎧"
+            },
+            "blog": {
+                "title": "Blog wakeupandcode.pl",
+                "description": "Zbiór artykułów o zmianie branży, nauce kodowania i stawianiu pierwszych kroków w IT. A do tego trochę życiowych rozkmin, przeglądów ciekawych treści i dawki motywacji do działania 🌱"
+            },
+            "group": {
+                "title": "Grupa na FB \"Programuj, dziewczyno!\"",
+                "description": "'IT, kod i motywacja w dziewczyńskim gronie. Dołącz do ponad 30 tysięcy członkiń zakręconych na punkcie świata IT i programowania. Wspieramy się, uczymy i rozwijamy razem 👩🏻‍💻"
+            }
+        },
+        "other": {
+            "title": "A oprócz tego...",
+            "ig": {
+                "part_1": "Po migawki z życia, nowe technologie i garść myśli ",
+                "link": "wskakuj na moje konto na IG 👩🏻‍💻"
+            },
+            "devto":
+            {
+                "part_1": "Zbiór moich przemyśleń na techniczne tematy ",
+                "link": " znajdziesz na dev.to 💭"
+            },
+            "mail": {
+                "part_1": "Jak masz ochotę się do mnie odezwać, ",
+                "link": "pisz na joanna@wakeupancode.pl 💌"
+            }
+        },
+        "footer": "© Wake up and Code Joanna Otmianowska 2024. Wszelkie prawa zastrzeżone."
     }
 }
