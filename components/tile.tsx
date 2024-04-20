@@ -11,7 +11,7 @@ export default async function Tile({ tile }: { tile: TileMainPage }) {
     <Link href={tile.link}>
       <Image
         src={JSON.parse(JSON.stringify(img))}
-        alt={tile.title}
+        alt={tile.translationKey}
         priority={false}
         className='absolute inset-0 w-full h-full object-cover'
         placeholder='blur'
