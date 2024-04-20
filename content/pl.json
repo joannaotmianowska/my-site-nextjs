@@ -11,14 +11,14 @@
     "intro": "Cześć! Witaj na mojej stronie - jestem Joanna. Programistka frontend, która pisze, robi kreatywne rzeczy i stara się łapać balans między życiem mamy i stoma nowymi pomysłami na minutę. Znajdziesz tu zbiór wszystkich moich projektów i inicjatyw. Rozgość się! 🧡",
     "aboutMe": {
       "title": "Parę słów o mnie...",
-      "part_1": "💭 Szukam pretekstów do rozmyślań i rozmów",
-      "part_2": "🎙️ Tworzę podcast i 💌 newsletter",
-      "part_3": "🌱 Propaguję rozwój w swoim tempie",
-      "part_4": "📚 Wierzę w lifelong learning i pracę głęboką",
-      "part_5": "✨ Pokazuję nowe technologie",
-      "part_6": "👩🏻‍💻 Wspieram kobiety w IT",
-      "part_7": "🚀 Zarażam energią do działania",
-      "part_8": "💻 Koduję w JS, TS i React"
+      "part_1": "Szukam pretekstów do rozmyślań i rozmów",
+      "part_2": "Tworzę podcast i newsletter",
+      "part_3": "Propaguję rozwój w swoim tempie",
+      "part_4": "Wierzę w lifelong learning i pracę głęboką",
+      "part_5": "Pokazuję nowe technologie",
+      "part_6": "👩🏻Wspieram kobiety w IT",
+      "part_7": "Zarażam energią do działania",
+      "part_8": "Koduję w JS, TS i React"
     },
     "keywords": {
       "part_1": "kod",

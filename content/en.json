@@ -11,14 +11,14 @@
     "intro": "Hey! Welcome to my site - I'm Joanna. A frontend developer who writes, does creative stuff, and tries to find the balance between mom life and a hundred new ideas per minute. Here you'll find a collection of all my projects and initiatives. Make yourself at home! 🧡",
     "aboutMe": {
       "title": "A few words about me...",
-      "part_1": "💭 I look for excuses to ponder and converse",
-      "part_2": "🎙️ I create s podcast and 💌 a newsletter",
-      "part_3": "🌱 I advocate for growing at your own pace",
-      "part_4": "📚 I believe in lifelong learning and deep work",
-      "part_5": "✨ I introduce new technologies",
-      "part_6": "👩🏻‍💻 I support women in IT",
-      "part_7": "🚀 I inspire others with my contagious enthusiasm and drive for action",
-      "part_8": "💻 I code in JS, TS and React"
+      "part_1": "I look for excuses to ponder and converse",
+      "part_2": "I create s podcast and a newsletter",
+      "part_3": "I advocate for growing at your own pace",
+      "part_4": "I believe in lifelong learning and deep work",
+      "part_5": "I introduce new technologies",
+      "part_6": "I support women in IT",
+      "part_7": "I inspire others with my contagious enthusiasm and drive for action",
+      "part_8": "I code in JS, TS and React"
     },
     "keywords": {
       "part_1": "code",

@@ -26,14 +26,14 @@ export default function Home() {
             <h3 className='py-4 text-my-orange font-title'>
               {t('aboutMe.title')}
             </h3>
-            <li>{t('aboutMe.part_1')}</li>
-            <li>{t('aboutMe.part_2')}</li>
-            <li>{t('aboutMe.part_3')}</li>
-            <li>{t('aboutMe.part_4')}</li>
-            <li>{t('aboutMe.part_5')}</li>
-            <li>{t('aboutMe.part_6')}</li>
-            <li>{t('aboutMe.part_7')}</li>
-            <li>{t('aboutMe.part_8')}</li>
+            <li>💭&nbsp;&nbsp;&nbsp;{t('aboutMe.part_1')}</li>
+            <li>🎙️&nbsp;&nbsp;&nbsp;{t('aboutMe.part_2')}&nbsp;&nbsp;&nbsp;💌</li>
+            <li>🌱&nbsp;&nbsp;&nbsp;{t('aboutMe.part_3')}</li>
+            <li>📚&nbsp;&nbsp;&nbsp;{t('aboutMe.part_4')}</li>
+            <li>✨&nbsp;&nbsp;&nbsp;{t('aboutMe.part_5')}</li>
+            <li>👩🏻‍💻&nbsp;&nbsp;&nbsp;{t('aboutMe.part_6')}</li>
+            <li>🚀&nbsp;&nbsp;&nbsp;{t('aboutMe.part_7')}</li>
+            <li>💻&nbsp;&nbsp;&nbsp;{t('aboutMe.part_8')}</li>
           </ul>
         </div>
         <div className='z-10 p-4 grid place-content-center'>
@@ -65,7 +65,7 @@ export default function Home() {
         <h3 className='py-4 text-6xl lg:text-4xl'>{t('other.title')}</h3>
         <ul className='p-4 leading-10 text-2xl'>
           <li>
-            ✨ {t('other.ig.part_1')}
+            ✨&nbsp;&nbsp;&nbsp;{t('other.ig.part_1')}
             <Link
               href='https://www.instagram.com/joanna.otmianowska/'
               className='underline'
@@ -74,13 +74,13 @@ export default function Home() {
             </Link>{' '}
           </li>
           <li>
-            ✨ {t('other.devto.part_1')}
+            ✨&nbsp;&nbsp;&nbsp;{t('other.devto.part_1')}
             <Link href='https://dev.to/joannaotmianowska' className='underline'>
               {t('other.devto.link')}
             </Link>{' '}
           </li>
           <li>
-            ✨ {t('other.mail.part_1')}
+            ✨&nbsp;&nbsp;&nbsp;{t('other.mail.part_1')}
             <Link href='mailto:joanna@wakeupandcode.pl' className='underline'>
               {t('other.mail.link')}
             </Link>{' '}
