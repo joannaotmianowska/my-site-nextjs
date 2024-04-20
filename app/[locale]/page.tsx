@@ -27,7 +27,9 @@ export default function Home() {
               {t('aboutMe.title')}
             </h3>
             <li>💭&nbsp;&nbsp;&nbsp;{t('aboutMe.part_1')}</li>
-            <li>🎙️&nbsp;&nbsp;&nbsp;{t('aboutMe.part_2')}&nbsp;&nbsp;&nbsp;💌</li>
+            <li>
+              🎙️&nbsp;&nbsp;&nbsp;{t('aboutMe.part_2')}&nbsp;&nbsp;&nbsp;💌
+            </li>
             <li>🌱&nbsp;&nbsp;&nbsp;{t('aboutMe.part_3')}</li>
             <li>📚&nbsp;&nbsp;&nbsp;{t('aboutMe.part_4')}</li>
             <li>✨&nbsp;&nbsp;&nbsp;{t('aboutMe.part_5')}</li>
