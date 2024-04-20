@@ -8,10 +8,9 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      body: ['Epilogue', 'sans-serif'],
+      body: ['Nunito', 'sans-serif'],
       title: ['Satoshi', 'sans-serif'],
-      hand: ['Pencerio', 'serif'],
-      test: ['var(--font-epi)'],
+      extra: ['Lora', 'serif'],
     },
     extend: {
       backgroundImage: {

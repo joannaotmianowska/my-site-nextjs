@@ -12,7 +12,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className='w-full z-40 sticky top-0 my-0 flex justify-around bg-my-orange lg:bg-my-beige py-0 font-title lg:text-base'>
+    <nav className='w-full z-40 sticky top-0 my-0 flex justify-around bg-my-orange lg:bg-my-beige py-0 lg:text-base font-body font-bold'>
       <Link
         href='/'
         className='lg:mx-2 lg:my-2 flex max-h-10 flex-none cursor-pointer items-center justify-center px-8 py-12'
