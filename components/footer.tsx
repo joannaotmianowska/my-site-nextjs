@@ -1,9 +1,13 @@
-export default function Footer() {
+import pick from 'lodash/pick';
+import { NextIntlClientProvider, useMessages } from 'next-intl';
+import FooterContent from './footerContent';
+
+export default function Nav() {
+  const messages = useMessages();
+
   return (
-    <footer className='flex flex-col items-center justify-between py-10'>
-      <div className='z-10 w-full max-w-5xl items-center justify-between  text-sm lg:flex'>
-        © Wake up and Code Joanna Otmianowska 2024. Wszelkie prawa zastrzeżone.
-      </div>
-    </footer>
+    <NextIntlClientProvider messages={pick(messages, 'Nav')}>
+      <FooterContent />
+    </NextIntlClientProvider>
   );
 }

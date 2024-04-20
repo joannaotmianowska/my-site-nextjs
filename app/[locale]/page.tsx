@@ -1,10 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import myPhoto from '../public/assets/my-photo-2.jpg';
+import { useTranslations } from 'next-intl';
+import myPhoto from '../../public/assets/my-photo-2.jpg';
 import Tile from '@/components/tile';
-import { tiles, TileMainPage } from '../lib/tilesDetails';
+import { tiles, TileMainPage } from '../../lib/tilesDetails';
 
 export default function Home() {
+  const t = useTranslations('Home');
+
   return (
     <>
       <div className='z-10 px-10 lg:px-0 flex flex-col lg:flex-row xl:w-3/4'>
@@ -13,27 +16,26 @@ export default function Home() {
             Joanna Otmianowska
           </h1>
           <h3 className='py-2 font-bold font-hand'>
-            * kod * codzienność * rozwój * praca *<br></br>* dobrostan *
-            macierzyństwo * kreatywne życie *<br></br>
+            * {t('keywords.part_1')} * {t('keywords.part_2')} *{' '}
+            {t('keywords.part_3')} * {t('keywords.part_4')} *<br></br>*{' '}
+            {t('keywords.part_5')} *{t('keywords.part_6')} *{' '}
+            {t('keywords.part_7')} *<br></br>
           </h3>
-          <p className='py-4'>
-            Cześć! Witaj na mojej stronie - jestem Joanna. Programistka
-            frontend, która pisze, robi kreatywne rzeczy i stara się łapać
-            balans między życiem mamy i stoma nowymi pomysłami na minutę.
-            Znajdziesz tu zbiór wszystkich moich projektów i inicjatyw. Rozgość
-            się! 🧡
-          </p>
+          <p className='py-4'>{t('intro')}</p>
           <ul className='py-4'>
             <h3 className='py-4 text-my-orange font-title'>
-              Parę słów o mnie...
+              {t('aboutMe.title')}
             </h3>
-            <li>💭 Szukam pretekstów do rozmyślań i rozmów </li>
-            <li>🎙️ Tworzę podcast i newsletter 💌</li>
-            <li>🌱 Propaguję rozwój w swoim tempie</li>
-            <li>📚 Wierzę w lifelong learning i pracę głęboką</li>
-            <li>✨ Pokazuję nowe technologie</li>
-            <li>👩🏻‍💻 Wspieram kobiety w IT</li>
-            <li>⚡ Zarażam energią do działania</li>
+            <li>💭&nbsp;&nbsp;&nbsp;{t('aboutMe.part_1')}</li>
+            <li>
+              🎙️&nbsp;&nbsp;&nbsp;{t('aboutMe.part_2')}&nbsp;&nbsp;&nbsp;💌
+            </li>
+            <li>🌱&nbsp;&nbsp;&nbsp;{t('aboutMe.part_3')}</li>
+            <li>📚&nbsp;&nbsp;&nbsp;{t('aboutMe.part_4')}</li>
+            <li>✨&nbsp;&nbsp;&nbsp;{t('aboutMe.part_5')}</li>
+            <li>👩🏻‍💻&nbsp;&nbsp;&nbsp;{t('aboutMe.part_6')}</li>
+            <li>🚀&nbsp;&nbsp;&nbsp;{t('aboutMe.part_7')}</li>
+            <li>💻&nbsp;&nbsp;&nbsp;{t('aboutMe.part_8')}</li>
           </ul>
         </div>
         <div className='z-10 p-4 grid place-content-center'>
@@ -48,7 +50,7 @@ export default function Home() {
       </div>
       <div className='grid place-items-center py-10 lg:px-0 w-full xl:w-3/4'>
         <h3 className='pb-8 text-6xl lg:text-4xl text-my-orange font-title'>
-          Moje inicjatywy
+          {t('tiles.title')}
         </h3>
         <ul className='flex flex-col lg:flex-row gap-4 w-full'>
           {tiles.map((tile: TileMainPage) => (
@@ -62,27 +64,27 @@ export default function Home() {
         </ul>
       </div>
       <div className='z-10 flex flex-col max-w-5xl px-10 py-5 lg:px-0 lg:py-10'>
-        <h3 className='py-4 text-6xl lg:text-4xl'>A oprócz tego...</h3>
+        <h3 className='py-4 text-6xl lg:text-4xl'>{t('other.title')}</h3>
         <ul className='p-4 leading-10 text-2xl'>
           <li>
-            ✨ Po migawki z życia, nowe technologie i garść myśli &nbsp;
+            ✨&nbsp;&nbsp;&nbsp;{t('other.ig.part_1')}
             <Link
               href='https://www.instagram.com/joanna.otmianowska/'
               className='underline'
             >
-              wskakuj na moje konto na IG 👩🏻‍💻
+              {t('other.ig.link')}
             </Link>{' '}
           </li>
           <li>
-            ✨ Zbiór moich przemyśleń na techniczne tematy &nbsp;
+            ✨&nbsp;&nbsp;&nbsp;{t('other.devto.part_1')}
             <Link href='https://dev.to/joannaotmianowska' className='underline'>
-              znajdziesz na dev.to 💭
+              {t('other.devto.link')}
             </Link>{' '}
           </li>
           <li>
-            ✨ Jak masz ochotę się do mnie odezwać,&nbsp;
+            ✨&nbsp;&nbsp;&nbsp;{t('other.mail.part_1')}
             <Link href='mailto:joanna@wakeupandcode.pl' className='underline'>
-              pisz na joanna@wakeupancode.pl 💌
+              {t('other.mail.link')}
             </Link>{' '}
           </li>
           {/* <li>⭐ Ebook "Zostać programist(k)ą i nie zwariować"</li> */}
