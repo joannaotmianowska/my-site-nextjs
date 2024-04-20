@@ -20,6 +20,17 @@
       "part_7": "I inspire others with my contagious enthusiasm and drive for action",
       "part_8": "I code in JS, TS and React"
     },
+    "aboutWork": {
+      "title": "A few words about how I work...",
+      "part_1": "I create user-friendly web applications",
+      "part_2": "I mainly work in: JavaScript, React & TypeScript",
+      "part_3": "I share knowledge at conferences, lectures, and workshops",
+      "part_4": "I have experience in maintaining legacy projects, migrating to newer technologies, and building functionalities from scratch.",
+      "part_5": "I am a strong advocate of thorough application testing",
+      "part_6": "I believe that a key ingredient of team work is good communication",
+      "linkedin": "My LinkedIn profile",
+      "github": "My Github profile"
+    },
     "keywords": {
       "part_1": "code",
       "part_2": "everyday life",

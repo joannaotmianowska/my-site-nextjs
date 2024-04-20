@@ -35,23 +35,30 @@ export default function Home() {
             <li>✨&nbsp;&nbsp;&nbsp;{t('aboutMe.part_5')}</li>
             <li>👩🏻‍💻&nbsp;&nbsp;&nbsp;{t('aboutMe.part_6')}</li>
             <li>🚀&nbsp;&nbsp;&nbsp;{t('aboutMe.part_7')}</li>
-            <li>💻&nbsp;&nbsp;&nbsp;{t('aboutMe.part_8')}</li>
           </ul>
           <ul className='py-4 text-3xl xl:text-xl'>
             <h3 className='py-4 text-my-orange font-title xl:text-4xl'>
-              {t('aboutMe.title')}
+              {t('aboutWork.title')}
             </h3>
-            <li>💭&nbsp;&nbsp;&nbsp;{t('aboutMe.part_1')}</li>
-            <li>
-              🎙️&nbsp;&nbsp;&nbsp;{t('aboutMe.part_2')}&nbsp;&nbsp;&nbsp;💌
-            </li>
-            <li>🌱&nbsp;&nbsp;&nbsp;{t('aboutMe.part_3')}</li>
-            <li>📚&nbsp;&nbsp;&nbsp;{t('aboutMe.part_4')}</li>
-            <li>✨&nbsp;&nbsp;&nbsp;{t('aboutMe.part_5')}</li>
-            <li>👩🏻‍💻&nbsp;&nbsp;&nbsp;{t('aboutMe.part_6')}</li>
-            <li>🚀&nbsp;&nbsp;&nbsp;{t('aboutMe.part_7')}</li>
-            <li>💻&nbsp;&nbsp;&nbsp;{t('aboutMe.part_8')}</li>
+            <li>💻&nbsp;&nbsp;&nbsp;{t('aboutWork.part_1')}</li>
+            <li>🔧&nbsp;&nbsp;&nbsp;{t('aboutWork.part_2')}</li>
+            <li>🎤&nbsp;&nbsp;&nbsp;{t('aboutWork.part_3')}</li>
+            <li>🛠️&nbsp;&nbsp;&nbsp;{t('aboutWork.part_4')}</li>
+            <li>🧪&nbsp;&nbsp;&nbsp;{t('aboutWork.part_5')}</li>
+            <li>🤝&nbsp;&nbsp;&nbsp;{t('aboutWork.part_6')}</li>
           </ul>
+          <div className='flex flex-col md:flex-row items-center justify-start gap-10 py-4'>
+            <Link href='https://www.linkedin.com/in/joanna-otmianowska-73910585/' target='_blank'>
+              <button className='py-4 px-8 text-3xl xl:text-xl bg-my-violet text-white rounded-2xl hover:text-my-blue hover:shadow-md'>
+                {t('aboutWork.linkedin')}
+              </button>
+            </Link>
+            <Link href='https://github.com/joannaotmianowska' target='_blank'>
+              <button className='py-4 px-8 text-3xl xl:text-xl bg-my-violet text-white rounded-2xl hover:text-my-blue hover:shadow-md'>
+                {t('aboutWork.github')}
+              </button>
+            </Link>
+          </div>
         </div>
         <div className='z-10 p-4 flex items-center justify-center'>
           <Image
