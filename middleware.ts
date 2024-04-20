@@ -6,12 +6,12 @@ const middleware = createMiddleware({
   locales: ['pl', 'en'],
 
   // Default locale if no match
-  defaultLocale: 'pl'
+  defaultLocale: 'pl',
 });
 
 export default middleware;
 
 export const config = {
   // Match only internationalized pathnames
-  matcher: ['/', '/(pl|en)/:page*']
+  matcher: ['/', '/(pl|en)/:page*'],
 };

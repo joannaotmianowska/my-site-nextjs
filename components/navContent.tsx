@@ -1,11 +1,11 @@
 'use client';
 import Link from 'next/link';
-import { useTranslations } from "next-intl";
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 export default function Nav() {
-  const t = useTranslations("Nav");
+  const t = useTranslations('Nav');
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const openCloseNavbar = () => {
@@ -19,7 +19,7 @@ export default function Nav() {
         className='lg:mx-2 lg:my-2 flex max-h-10 flex-none cursor-pointer items-center justify-center px-8 py-12 lg:hover:text-my-orange'
       >
         <span className='lg:hover:animate-wiggle'>
-        ✨&nbsp;&nbsp;&nbsp;{t("main_page")}
+          ✨&nbsp;&nbsp;&nbsp;{t('main_page')}
         </span>
       </Link>
       <div className='items-right flex justify-between bg-my-orange lg:bg-my-beige'>
@@ -42,35 +42,35 @@ export default function Nav() {
             href='https://www.subscribepage.com/pretekst'
             target='_blank'
           >
-            💌&nbsp;&nbsp;&nbsp;{t("newsletter")}
+            💌&nbsp;&nbsp;&nbsp;{t('newsletter')}
           </Link>
           <Link
             className='cursor-pointer p-8 lg:pl-4 lg:pr-0 duration-500 lg:my-0 lg:hover:text-my-orange lg:hover:animate-wiggle'
             href='https://open.spotify.com/show/2clasOw1kmW2Ru0VHwtSyA?si=f4ff0c2d08274e32'
             target='_blank'
           >
-           🎙️&nbsp;&nbsp;&nbsp;{t("podcast")}
+            🎙️&nbsp;&nbsp;&nbsp;{t('podcast')}
           </Link>
           <Link
             className='cursor-pointer p-8 lg:pl-4 lg:pr-0 duration-500 lg:my-0 lg:hover:text-my-orange lg:hover:animate-wiggle'
             href='https://www.instagram.com/joanna.otmianowska/'
             target='_blank'
           >
-            📸&nbsp;&nbsp;&nbsp;{t("instagram")}
+            📸&nbsp;&nbsp;&nbsp;{t('instagram')}
           </Link>
           <Link
             className='cursor-pointer p-8 lg:pl-4 lg:pr-0 duration-500 lg:my-0 lg:hover:text-my-orange lg:hover:animate-wiggle'
             href='https://www.wakeupandcode.pl'
             target='_blank'
           >
-            🌱&nbsp;&nbsp;&nbsp;{t("blog")}
+            🌱&nbsp;&nbsp;&nbsp;{t('blog')}
           </Link>
           <Link
             className='cursor-pointer p-8 lg:pl-4 lg:pr-0 duration-500 lg:my-0 lg:hover:text-my-orange hover:animate-wiggle'
             href='https://www.facebook.com/groups/programujdziewczyno'
             target='_blank'
           >
-            👩🏻‍💻&nbsp;&nbsp;&nbsp;{t("group")}
+            👩🏻‍💻&nbsp;&nbsp;&nbsp;{t('group')}
           </Link>
         </ul>
       </div>
