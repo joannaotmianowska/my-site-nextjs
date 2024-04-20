@@ -48,7 +48,10 @@ export default function Home() {
             <li>🤝&nbsp;&nbsp;&nbsp;{t('aboutWork.part_6')}</li>
           </ul>
           <div className='flex flex-col md:flex-row items-center justify-start gap-10 py-4'>
-            <Link href='https://www.linkedin.com/in/joanna-otmianowska-73910585/' target='_blank'>
+            <Link
+              href='https://www.linkedin.com/in/joanna-otmianowska-73910585/'
+              target='_blank'
+            >
               <button className='py-4 px-8 text-3xl xl:text-xl bg-my-violet text-white rounded-2xl hover:text-my-blue hover:shadow-md'>
                 {t('aboutWork.linkedin')}
               </button>
