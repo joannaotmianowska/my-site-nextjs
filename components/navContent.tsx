@@ -12,13 +12,14 @@ export default function Nav() {
   };
 
   return (
-    <nav className='w-full z-40 sticky top-0 my-0 flex justify-around bg-my-orange lg:bg-my-beige py-0 lg:text-base font-body font-bold'>
-      <Link
+    <nav className='w-full z-40 sticky top-0 my-0 flex justify-between bg-my-orange lg:bg-my-beige py-0 lg:text-base font-body font-bold'>
+      {/* home page link removed for now */}
+      {/* <Link
         href='/'
         className='lg:mx-2 lg:my-2 flex max-h-10 flex-none cursor-pointer items-center justify-center px-8 py-12'
       >
         <span className='lg:hover:animate-wiggle text-6xl'>🏠</span>
-      </Link>
+      </Link> */}
       <div className='items-right flex justify-between bg-my-orange lg:bg-my-beige'>
         <span
           className='z-40 flex cursor-pointer justify-between text-6xl p-8 text-white lg:hidden'

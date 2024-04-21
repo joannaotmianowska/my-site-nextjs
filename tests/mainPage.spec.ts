@@ -21,10 +21,3 @@ test('basic elements are visible', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Joanna Otmianowska/);
 });
-
-test('main page link', async ({ page }) => {
-  await page.goto('https://my-site-nextjs-seven.vercel.app/');
-
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Strona główna' }).click();
-});
