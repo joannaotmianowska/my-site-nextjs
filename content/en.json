@@ -17,13 +17,12 @@
       "part_4": "I operate in the spirit of lifelong learning, essentialism, and deep work",
       "part_5": "I show how new tech can help us in everyday life",
       "part_6": "I support women in IT",
-      "part_7": "I inspire others with my contagious enthusiasm and drive for action",
-      "part_8": "I code in JS, TS and React"
+      "part_7": "I inspire others with my contagious enthusiasm and drive for action"
     },
     "aboutWork": {
       "title": "A few words about how I work...",
       "part_1": "I create user-friendly web applications",
-      "part_2": "I mainly work in: JavaScript, React & TypeScript",
+      "part_2": "I mainly work in: JavaScript, TypeScript & React",
       "part_3": "I share knowledge at conferences, lectures, and workshops",
       "part_4": "I have experience in maintaining legacy projects, migrating to newer technologies, and building functionalities from scratch.",
       "part_5": "I am a strong advocate of thorough application testing",
