@@ -28,7 +28,7 @@ export default function RootLayout({ children, locale }: RootLayoutProps) {
   return (
     <html lang={locale} className='w-fit h-fit overflow-x-hidden'>
       <body className='w-full flex justify-center items-center text-4xl lg:text-xl  leading-relaxed bg-my-beige'>
-        <main className='w-full lg:w-11/12 text-my-blue font-body flex flex-col items-center justify-between bg-my-beige'>
+        <main className='w-full text-my-blue font-body flex flex-col items-center justify-between bg-my-beige'>
           <Nav />
           {children}
           <Footer />

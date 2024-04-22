@@ -12,7 +12,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className='w-full z-40 sticky top-0 my-0 flex justify-between bg-my-orange lg:bg-my-beige py-0 lg:text-base font-body font-bold'>
+    <nav className='w-full lg:w-3/4 z-40 sticky top-0 my-0 flex justify-between bg-my-orange lg:bg-my-beige py-0 lg:text-base font-body font-bold'>
       {/* home page link removed for now */}
       {/* <Link
         href='/'
@@ -30,7 +30,7 @@ export default function Nav() {
         </span>
         <ul
           className={
-            'rounded-2xl w-full absolute left-0 z-[-1] flex flex-col bg-my-orange lg:bg-my-beige pt-16 opacity-0 transition-all duration-500 ease-in lg:static lg:z-auto lg:w-auto lg:flex-row lg:items-center lg:justify-end lg:py-0 lg:pl-0 lg:text-right lg:opacity-100' +
+            'rounded-2xl w-full absolute left-0 z-[-1] flex flex-col bg-my-orange lg:bg-my-beige pt-32 opacity-0 transition-all duration-500 ease-in lg:static lg:z-auto lg:w-auto lg:flex-row lg:items-center lg:justify-end lg:py-0 lg:pl-0 lg:text-right lg:opacity-100' +
             (navbarOpen ? ' opacity-100' : ' opacity-0')
           }
           onMouseLeave={() => setNavbarOpen(false)}
