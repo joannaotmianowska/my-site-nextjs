@@ -33,7 +33,7 @@ test('basic elements are visible on desktop in Eng version', async ({
     .getByText('💭   I look for excuses to ponder and converse')
     .isVisible();
   const aboutMePoint2 = await page
-    .getByText('✨   I introduce new technologies')
+    .getByText('✨   I show how new tech can help us in everyday life')
     .isVisible();
   const aboutMePoint3 = await page
     .getByText(
@@ -95,7 +95,7 @@ test('basic elements are visible on mobile in Eng version', async ({
     .getByText('💭   I look for excuses to ponder and converse')
     .isVisible();
   const aboutMePoint2 = await page
-    .getByText('✨   I introduce new technologies')
+    .getByText('✨   I show how new tech can help us in everyday life')
     .isVisible();
   const aboutMePoint3 = await page
     .getByText(
@@ -159,7 +159,7 @@ test('basic elements are visible on desktop in Pl version', async ({
     .getByText('💭   Szukam pretekstów do rozmyślań i rozmów')
     .isVisible();
   const aboutMePoint2 = await page
-    .getByText('✨   Pokazuję nowe technologie')
+    .getByText('✨   Pokazuję jak nowe technologie mogą nam ułatwić codzienność')
     .isVisible();
   const aboutMePoint3 = await page
     .getByText('🚀   Zarażam energią do działania')
@@ -223,7 +223,7 @@ test('basic elements are visible on mobile in Pl version', async ({ page }) => {
     .getByText('💭   Szukam pretekstów do rozmyślań i rozmów')
     .isVisible();
   const aboutMePoint2 = await page
-    .getByText('✨   Pokazuję nowe technologie')
+    .getByText('✨   Pokazuję jak nowe technologie mogą nam ułatwić codzienność')
     .isVisible();
   const aboutMePoint3 = await page
     .getByText('🚀   Zarażam energią do działania')
