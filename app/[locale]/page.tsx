@@ -90,7 +90,7 @@ export default function Home() {
       </div>
       <div className='z-10 flex flex-col max-w-5xl px-10 py-5 lg:px-0 lg:py-10'>
         <h3 className='py-4 text-4xl lg:text-2xl'>{t('other.title')}</h3>
-        <ul className='p-4 leading-10 text-2xl xl:text-xl'>
+        <ul className='p-4 leading-10 text-3xl xl:text-xl'>
           <li className='py-2'>
             ✨&nbsp;&nbsp;&nbsp;{t('other.ig.part_1')}
             <Link
