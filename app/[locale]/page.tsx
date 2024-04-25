@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <div className='z-10 px-10 lg:px-0 flex flex-col lg:flex-row xl:w-3/4'>
+      <div className='fadeIn z-10 px-10 lg:px-0 flex flex-col lg:flex-row xl:w-3/4'>
         <div className='flex flex-col justify-center align-center md:pr-10'>
           <h1 className='py-4 text-8xl xl:text-9xl font-title text-my-orange'>
             Joanna Otmianowska
