@@ -12,7 +12,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className='w-full lg:w-3/4 z-40 sticky top-0 my-0 flex justify-between bg-my-orange lg:bg-my-beige py-0 lg:text-base font-body font-bold'>
+    <nav className='w-full lg:w-3/4 z-40 sticky top-0 my-0 flex justify-between bg-my-orange lg:bg-my-beige py-0 lg:text-base font-body'>
       {/* home page link removed for now */}
       {/* <Link
         href='/'
@@ -76,14 +76,14 @@ export default function Nav() {
         <Link
           href='/pl'
           locale='pl'
-          className='cursor-pointer py-8 px-4 text-6xl lg:hover:animate-wiggle'
+          className='cursor-pointer py-8 px-4 text-6xl lg:text-3xl lg:hover:animate-wiggle'
         >
           🇵🇱
         </Link>
         <Link
           href='/en'
           locale='en'
-          className='cursor-pointer py-8 pl-4 pr-8 text-6xl lg:hover:animate-wiggle'
+          className='cursor-pointer py-8 pl-4 pr-8 text-6xl lg:text-3xl lg:hover:animate-wiggle'
         >
           🇬🇧
         </Link>

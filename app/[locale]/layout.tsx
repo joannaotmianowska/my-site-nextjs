@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import type { Viewport } from 'next';
-import Link from 'next/link';
 import React from 'react';
 import '../global.css';
 import Nav from '@/components/nav';
