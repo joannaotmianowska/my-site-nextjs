@@ -37,7 +37,7 @@ export default function Nav() {
         >
           <Link
             className='cursor-pointer p-8 lg:pl-4 lg:pr-0 duration-500 lg:my-0 lg:hover:text-white lg:hover:animate-wiggle'
-            href='https://www.subscribepage.com/pretekst'
+            href='https://www.subscribepage.io/pretekst'
             target='_blank'
           >
             💌&nbsp;&nbsp;&nbsp;{t('newsletter')}

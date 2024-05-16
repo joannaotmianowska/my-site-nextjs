@@ -30,7 +30,7 @@ Mogłabym jeszcze długo pisać, jak wiele zmieniło u mnie proste ćwiczenie zw
 
 **Może chcesz napisać mi, co przyszło Ci do głowy w pierwszej kolejności? Czy jest to coś, co Ci pasuje? Bardzo jestem ciekawa.**
 
-Znasz kogoś, kogo zainteresuje mój nowy newsletter? Prześlij mu tego maila albo [link](https://www.subscribepage.com/pretekst) do zapisu, będę wdzięczna!
+Znasz kogoś, kogo zainteresuje mój nowy newsletter? Prześlij mu tego maila albo [link](https://www.subscribepage.io/pretekst) do zapisu, będę wdzięczna!
 
 Serdeczne pozdrowienia
 

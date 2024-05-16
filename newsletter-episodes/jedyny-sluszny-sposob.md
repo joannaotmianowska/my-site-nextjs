@@ -68,7 +68,7 @@ Nowych przeglądów treści ostatnio nie było, linkuję poniżej te, które si�
 
 **💖 Lubisz czytać ten newsletter?**
 
-Wesprzyj moje działania: prześlij komuś tego maila, [link do zapisu na newsletter](https://www.subscribepage.com/pretekst) albo [postaw mi kawę](https://buycoffee.to/joannaotmianowska). Będę ogromnie wdzięczna!
+Wesprzyj moje działania: prześlij komuś tego maila, [link do zapisu na newsletter](https://www.subscribepage.io/pretekst) albo [postaw mi kawę](https://buycoffee.to/joannaotmianowska). Będę ogromnie wdzięczna!
 
 **Serdeczne pozdrowienia**
 
