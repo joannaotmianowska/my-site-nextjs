@@ -7,7 +7,7 @@ export interface TileMainPage {
 
 export const tiles: TileMainPage[] = [
   {
-    link: 'https://www.subscribepage.io/pretekst',
+    link: 'https://joannaotmianowska.substack.com/',
     image: 'newsletter.webp',
     id: 1,
     translationKey: 'newsletter',
